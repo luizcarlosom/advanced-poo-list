@@ -1,8 +1,6 @@
 package Node;
 
-import Composite.Car;
-
-public class PowerTrainNode extends Car {
+public class PowerTrainNode extends ChassiNode {
 
     public PowerTrainNode(String name) {
         super(name);
