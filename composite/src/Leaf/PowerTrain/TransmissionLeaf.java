@@ -1,0 +1,23 @@
+package Leaf.PowerTrain;
+
+import Component.CarComponent;
+
+public class TransmissionLeaf implements CarComponent{
+    private String name;
+    private int weight;
+
+    public TransmissionLeaf(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+    @Override
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    public int getWeight() {
+        return this.weight;
+    }
+}
