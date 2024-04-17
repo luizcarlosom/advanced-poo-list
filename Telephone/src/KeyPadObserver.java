@@ -1,5 +1,3 @@
-import java.util.Random;
-
 /**
  * Mimic the data input ability of a physical phone's keypad;
  * however, here we're just sending it fake digits.
