@@ -6,7 +6,6 @@ import java.util.List;
 
 
 import Strategy.Strategy;
-import Strategy.StrategyContext;
 
 /**
  * Perform "web search" (from a  file), notify the interested observers of each query.
